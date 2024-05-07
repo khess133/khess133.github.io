@@ -1,5 +1,12 @@
 # khess133.github.io
 
+## git commands
+```
+git add .
+git commit -m "message"
+git push origin master
+```
+
 ## Project setup
 ```
 npm install
