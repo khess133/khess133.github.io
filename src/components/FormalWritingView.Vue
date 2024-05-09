@@ -1,6 +1,6 @@
 <template>
     <div class="creative-wrapper">
-        <h1 class="creativewritingheader"> Creative Writing </h1>
+        <h1 class="formalwritingheader"> Formal Writing </h1>
         <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo, velit eu vestibulum luctus, risus nunc viverra erat, sed placerat felis quam ut sem. Phasellus sit amet ante ultrices, ultrices tellus fermentum, posuere felis. Curabitur eget nulla et leo rutrum accumsan. Ut felis lacus, lacinia quis libero a, iaculis ultrices mauris. Vivamus luctus justo ac consequat faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer hendrerit vehicula arcu a molestie. Sed a eros a magna luctus condimentum. Maecenas ante sapien, maximus vel augue non, interdum euismod est. Quisque lobortis gravida erat id semper.
 
@@ -17,28 +17,12 @@
 
 <script>
 export default {
-    name: "CreativeWritingView"
+    name: "FormalWritingView"
 }
 </script>
 
 <style>
-.creative-wrapper {
-    width: 100%;
-    max-height: calc(100% - 60px);
-    position: fixed;
-    top: 60px;
-    left: 0px;
-    background-color: white;
-    overflow-y: auto;
-}
-
-.text {
-    font-size: 30px;
-    margin: 50px;
-    color: #585858;
-}
-
-.creativewritingheader {
+.formalwritingheader {
     color: #585858;
 }
 </style>

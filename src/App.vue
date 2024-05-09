@@ -1,22 +1,28 @@
 <template>
-  <div class="nav-bar">
-    <div class="nav-item" @click="currentPage = 0">home</div>
-    <div class="nav-item" @click="currentPage = 1">creative writing</div>
-    <div class="nav-item">formal writing</div>
-    <div class="nav-item">artifact</div>
-    <div class="nav-item">poem</div>
-  </div>
+<div class="nav-bar">
+    <div class="nav-item" @click="currentPage = 0">Home</div>
+    <div class="nav-item" @click="currentPage = 1">Creative Writing</div>
+    <div class="nav-item" @click="currentPage = 2">Formal Writing</div>
+    <div class="nav-item" @click="currentPage = 3">Artifact</div>
+    <div class="nav-item" @click="currentPage = 4">Poem</div>
+</div>
   <HomeView></HomeView>
   <CreativeWritingView class="page" v-if="currentPage == 1"></CreativeWritingView>
+  <FormalWritingView class="page" v-if="currentPage == 2"></FormalWritingView>
+  <ArtifactView class="page" v-if="currentPage == 3"></ArtifactView>
+  <PoemView class="page" v-if="currentPage == 4"></PoemView>
 </template>
 
 <script>
 import HomeView from './components/HomeView.vue'
 import CreativeWritingView from './components/CreativeWritingView.vue'
+import FormalWritingView from './components/FormalWritingView.vue'
+import ArtifactView from './components/ArtifactView.vue'
+import PoemView from './components/PoemView.vue'
 
 export default {
   name: 'App',
-  components: {HomeView, CreativeWritingView},
+  components: {HomeView, CreativeWritingView, FormalWritingView, ArtifactView, PoemView},
   data() {
     return {
       currentPage: 0
@@ -51,6 +57,7 @@ export default {
   align-items: center;
   user-select: none;
   cursor: pointer;
+  color:#585858; 
 }
 
 .nav-item:hover {
