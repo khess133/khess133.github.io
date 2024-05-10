@@ -2,16 +2,68 @@
     <div class="creative-wrapper">
         <h1 class="poemheader"> Poem </h1>
         <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo, velit eu vestibulum luctus, risus nunc viverra erat, sed placerat felis quam ut sem. Phasellus sit amet ante ultrices, ultrices tellus fermentum, posuere felis. Curabitur eget nulla et leo rutrum accumsan. Ut felis lacus, lacinia quis libero a, iaculis ultrices mauris. Vivamus luctus justo ac consequat faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer hendrerit vehicula arcu a molestie. Sed a eros a magna luctus condimentum. Maecenas ante sapien, maximus vel augue non, interdum euismod est. Quisque lobortis gravida erat id semper.
-
-            Integer vel tellus tristique dolor malesuada scelerisque. Mauris iaculis ex tellus, quis luctus quam ultrices id. Aliquam nec nunc mollis, pulvinar elit sit amet, tempor sem. Integer vitae dolor id orci faucibus vulputate et non quam. Integer vulputate dignissim nisl in viverra. In sed neque ac justo mollis dictum. Etiam a justo et nibh rutrum placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed non felis vitae neque egestas egestas. Duis eros dui, laoreet sit amet dolor ut, ornare mollis sem. Nunc ut luctus mauris. Donec eu lacus sem.
-            
-            Aenean quis viverra ex. Cras nec lacus velit. Sed quis justo tortor. Mauris vestibulum vulputate augue ut dictum. Maecenas nec venenatis nisi. Curabitur ut mauris ut turpis tempor consectetur in et ipsum. Vivamus nec scelerisque augue.
-            
-            Nullam ac nibh laoreet, sodales neque placerat, placerat nisl. Sed placerat tempus nisl vel pharetra. Etiam scelerisque vehicula tortor, at dictum orci consectetur id. Phasellus eleifend, sapien venenatis ultrices imperdiet, ante orci vehicula dui, ac eleifend nisl urna ut ligula. Mauris dignissim diam gravida nisi rutrum, eu suscipit lorem condimentum. Praesent tincidunt justo vehicula neque lacinia, at vulputate massa condimentum. Sed sed orci felis. Sed id dignissim nulla, vitae sollicitudin lorem. Duis rhoncus tellus id mattis luctus. Curabitur dignissim tortor eget risus interdum sodales. Vivamus auctor quam vel tempus vehicula. Vivamus malesuada maximus ligula, nec eleifend velit. Nunc neque lorem, imperdiet tempor aliquam quis, fringilla eget nisi. Phasellus sodales imperdiet faucibus. Aliquam justo nibh, tempus eget sapien eu, aliquet congue nulla.
-            
-            Curabitur et felis gravida, semper diam sit amet, rhoncus nulla. Nullam efficitur lorem non tellus laoreet, vel aliquam erat venenatis. Fusce turpis urna, efficitur quis facilisis quis, convallis in justo. Donec tincidunt sem mi, id consectetur nisl consequat vel. Phasellus vitae venenatis risus. Cras auctor leo quis felis imperdiet, ut laoreet massa porta. Integer mattis dui ac nibh mattis vehicula. Ut non lorem aliquam purus tempor ullamcorper sed non nisl.            
+            I was born on September 13th; that makes me a Virgo.
+            Honest, intelligent, hardworking, and reliable,
+            are all traits I try to associate with myself.
+            Perfectionist, judgemental, and analytical,
+            are ones I don’t want to.
+            I’m the youngest of three sisters, and my whole family.
+            I have a fear of vomiting because I can’t control it,
+            and I’m scared of what people would think of me,
+            and I’m afraid of spiders because they have too many legs,
+            and they look creepy when they walk.
+            <br />
+            <br />
+            My favorite color is purple, but not just plain purple.
+            Purple like the wisteria flowers that grow every spring,
+            purple like my best friend’s graceful laugh,
+            purple like the taste of smooth ice cream when I share it with my mom.
+            Not just plain purple.
+            <br />
+            <br />
+            I love the promise of friendship,
+            but I’m too scared they’re crossing their fingers behind their backs.
+            I love chocolate because it’s velvety and melts in your mouth.
+            I’ve always wanted to travel the world, but I miss home the more I do.
+            Sometimes I think it’s because I want to escape from normal,
+            but I don’t like change.
+            I want to see different things from my everyday life,
+            but “ordinary” is my cornerstone, the sun I orbit.
+            <br />
+            <br />
+            I love to sing and dance and act, but I can’t stand public speaking.
+            I love to put on a show for others, but not if it draws too much attention.
+            I loathe when people are rude, but I can always justify it for them.
+            I always read because it’s another way to travel without leaving home,
+            but sometimes I find myself trying to read between the lines where there’s nothing special,
+            so I write when reading becomes too out of control
+            and I can fix it.
+            <br />
+            <br />
+            I always feel like I’m out of time,
+            constantly chasing it while it slips away around a corner,
+            or taunts me from the future I have yet to live.
+            It’s always walking just a few steps ahead of me, but I can never catch up.
+            Often it looks back and gives me a little wave,
+            and sometimes it even holds my hand with a reassuring smile,
+            but only for a moment before it
+            runs off,
+            again. 
+            <br />
+            <br />
+            Hi, my name is Kalindi.
+            It means “sun” in Sanskrit, but it’s strange in English.
+            I always wondered about being named 
+            Katherine, or Kate, or Kaylin, or Kendall,
+            but everyone loves my beautiful name.
+            Just, sometimes it’s hard to say.
+               
         </p>
+
+        <div class="vines-wrapper">
+            <img class="vines" src="@/assets/vines.jpg" />
+            <img class="vines" src="@/assets/vines.jpg" />
+        </div>
     </div>
 </template>
 

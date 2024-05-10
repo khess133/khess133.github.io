@@ -12,6 +12,10 @@
             
             Curabitur et felis gravida, semper diam sit amet, rhoncus nulla. Nullam efficitur lorem non tellus laoreet, vel aliquam erat venenatis. Fusce turpis urna, efficitur quis facilisis quis, convallis in justo. Donec tincidunt sem mi, id consectetur nisl consequat vel. Phasellus vitae venenatis risus. Cras auctor leo quis felis imperdiet, ut laoreet massa porta. Integer mattis dui ac nibh mattis vehicula. Ut non lorem aliquam purus tempor ullamcorper sed non nisl.            
         </p>
+        <div class="vines-wrapper">
+            <img class="vines" src="@/assets/vines.jpg" />
+            <img class="vines" src="@/assets/vines.jpg" />
+        </div>
     </div>
 </template>
 

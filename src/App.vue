@@ -1,12 +1,12 @@
 <template>
 <div class="nav-bar">
-    <div class="nav-item" @click="currentPage = 0">Home</div>
-    <div class="nav-item" @click="currentPage = 1">Creative Writing</div>
-    <div class="nav-item" @click="currentPage = 2">Formal Writing</div>
-    <div class="nav-item" @click="currentPage = 3">Artifact</div>
-    <div class="nav-item" @click="currentPage = 4">Poem</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 0}" @click="currentPage = 0">Home</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 1}" @click="currentPage = 1">Creative Writing</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 2}" @click="currentPage = 2">Formal Writing</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 3}" @click="currentPage = 3">Artifact</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 4}" @click="currentPage = 4">Poem</div>
 </div>
-  <HomeView></HomeView>
+  <HomeView :active="currentPage"></HomeView>
   <CreativeWritingView class="page" v-if="currentPage == 1"></CreativeWritingView>
   <FormalWritingView class="page" v-if="currentPage == 2"></FormalWritingView>
   <ArtifactView class="page" v-if="currentPage == 3"></ArtifactView>
@@ -32,6 +32,17 @@ export default {
 </script>
 
 <style>
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: quicksand;
+}
+
 .nav-bar {
   width: 100%;
   height: 60px;
@@ -60,12 +71,12 @@ export default {
   color:#585858; 
 }
 
-.nav-item:hover {
+.nav-item:hover, .selected {
   background-color: rgba(0, 0, 0, .1);
 }
 
 .page {
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 15%;
 }
 </style>

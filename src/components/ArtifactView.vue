@@ -1,6 +1,7 @@
 <template>
     <div class="creative-wrapper">
         <h1 class="artifactheader"> Artifact </h1>
+        <img class="artifact-img" src="@/assets/artifactplaceholder.jpg" />
         <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo, velit eu vestibulum luctus, risus nunc viverra erat, sed placerat felis quam ut sem. Phasellus sit amet ante ultrices, ultrices tellus fermentum, posuere felis. Curabitur eget nulla et leo rutrum accumsan. Ut felis lacus, lacinia quis libero a, iaculis ultrices mauris. Vivamus luctus justo ac consequat faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer hendrerit vehicula arcu a molestie. Sed a eros a magna luctus condimentum. Maecenas ante sapien, maximus vel augue non, interdum euismod est. Quisque lobortis gravida erat id semper.
 
@@ -12,6 +13,10 @@
             
             Curabitur et felis gravida, semper diam sit amet, rhoncus nulla. Nullam efficitur lorem non tellus laoreet, vel aliquam erat venenatis. Fusce turpis urna, efficitur quis facilisis quis, convallis in justo. Donec tincidunt sem mi, id consectetur nisl consequat vel. Phasellus vitae venenatis risus. Cras auctor leo quis felis imperdiet, ut laoreet massa porta. Integer mattis dui ac nibh mattis vehicula. Ut non lorem aliquam purus tempor ullamcorper sed non nisl.            
         </p>
+        <div class="vines-wrapper">
+            <img class="vines" src="@/assets/vines.jpg" />
+            <img class="vines" src="@/assets/vines.jpg" />
+        </div>
     </div>
 </template>
 
@@ -24,5 +29,10 @@ export default {
 <style>
 .artifactheader {
     color: #585858;
+}
+
+.artifact-img {
+    width: 70%;
+    margin-top: 60px;
 }
 </style>

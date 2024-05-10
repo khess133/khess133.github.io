@@ -12,6 +12,10 @@
             
             Curabitur et felis gravida, semper diam sit amet, rhoncus nulla. Nullam efficitur lorem non tellus laoreet, vel aliquam erat venenatis. Fusce turpis urna, efficitur quis facilisis quis, convallis in justo. Donec tincidunt sem mi, id consectetur nisl consequat vel. Phasellus vitae venenatis risus. Cras auctor leo quis felis imperdiet, ut laoreet massa porta. Integer mattis dui ac nibh mattis vehicula. Ut non lorem aliquam purus tempor ullamcorper sed non nisl.            
         </p>
+        <div class="vines-wrapper">
+            <img class="vines" src="@/assets/vines.jpg" />
+            <img class="vines" src="@/assets/vines.jpg" />
+        </div>
     </div>
 </template>
 
@@ -30,15 +34,53 @@ export default {
     left: 0px;
     background-color: white;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.vines-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vines {
+    transform-origin: 50% 50%;
+    transform: rotate(90deg) scale(.5 10);
+    opacity: .8;
+}
+
+.vines:nth-child(1) {
+    margin-left: -190px;
+}
+
+.vines:nth-child(2) {
+    margin-right: -190px;
+    transform: scaleX(-1);
 }
 
 .text {
     font-size: 30px;
-    margin: 50px;
+    margin: 70px;
     color: #585858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .creativewritingheader {
     color: #585858;
+}
+
+.creative-wrapper h1 {
+    margin-top: 60px;
+    margin-bottom: -30px;
 }
 </style>
