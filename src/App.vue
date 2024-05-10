@@ -4,7 +4,7 @@
     <div :class="{'nav-item': true, 'selected': currentPage == 1}" @click="currentPage = 1">Creative Writing</div>
     <div :class="{'nav-item': true, 'selected': currentPage == 2}" @click="currentPage = 2">Formal Writing</div>
     <div :class="{'nav-item': true, 'selected': currentPage == 3}" @click="currentPage = 3">Artifact</div>
-    <div :class="{'nav-item': true, 'selected': currentPage == 4}" @click="currentPage = 4">Poem</div>
+    <div :class="{'nav-item': true, 'selected': currentPage == 4}" @click="currentPage = 4">Poetry</div>
 </div>
   <HomeView :active="currentPage"></HomeView>
   <CreativeWritingView class="page" v-if="currentPage == 1"></CreativeWritingView>

@@ -1,6 +1,6 @@
 <template>
     <div class="creative-wrapper">
-        <h1 class="poemheader"> Poem </h1>
+        <h1 class="poemheader"> Poetry </h1>
         <p class="text">
             I was born on September 13th; that makes me a Virgo.
             Honest, intelligent, hardworking, and reliable,
