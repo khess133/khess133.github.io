@@ -184,7 +184,7 @@ export default {
     margin-left: 70px;
     margin-right: 70px;
     color: #585858;
-    display: flex;
+    /**display: flex;*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -196,6 +196,10 @@ export default {
 .title {
     text-indent: 0px !important;
     text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .creativewritingheader {
