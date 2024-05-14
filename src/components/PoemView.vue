@@ -1,7 +1,9 @@
 <template>
     <div class="creative-wrapper">
         <h1 class="poemheader"> Poetry </h1>
-        <p class="text">
+        <br/>
+        <br/>
+        <p class="text poem">
             I was born on September 13th; that makes me a Virgo.
             Honest, intelligent, hardworking, and reliable,
             are all traits I try to associate with myself.
@@ -77,4 +79,9 @@ export default {
 .poemheader {
     color: #585858;
 }
+
+.poem {
+    text-align: center;
+}
+
 </style>
